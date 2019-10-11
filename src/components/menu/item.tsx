@@ -1,9 +1,15 @@
-import * as React from 'react'
+import * as React from 'react';
+import styled from 'styled-components';
 
+const Test = styled.div`
+    background-color: red;
+`
 const Item = () => {
-    return(
-        <p>ITEM123</p>
+    return (
+        <Test>
+            <p>ITEM1234</p>
+        </Test>
     )
-}
+};
 
 export default Item;
