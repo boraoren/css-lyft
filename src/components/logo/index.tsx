@@ -1,18 +1,16 @@
 import * as React from 'react'
+import Svg from '../svg'
 
 type svgWidthAndHeightProps = {
-    width?: string,
+    width: string
+    height: string
     onClick(event?: React.MouseEvent<HTMLDivElement>): void;
 }
 
-const Logo = ({ width, onClick }: svgWidthAndHeightProps) => {
+const Logo = ({ width, height, onClick }: svgWidthAndHeightProps) => {
     return (
         <div onClick={onClick}>
-            <svg fill="currentColor"
-                preserveAspectRatio="xMidYMid meet"
-                width={width}
-                viewBox="0 0 72 50"
-                style={{ verticalAlign: 'middle' }}>
+            <Svg width={width} height={height}>
                 <g>
                     <g>
                         <path d="M.023.888h10.912v28.716c0 4.544 2.12 7.251 3.796 8.411-1.775 1.547-7.198 2.901-11.24-.386C1.106 35.69.022 32.504.022 29.507V.888z"></path>
@@ -20,7 +18,7 @@ const Logo = ({ width, onClick }: svgWidthAndHeightProps) => {
                         <path d="M26.89 11.137v15.537c0 .883-.746 1.597-1.667 1.597-.92 0-1.667-.714-1.667-1.597V11.137H12.759V29.41c0 3.288 1.137 7.445 6.31 8.799 5.18 1.355 8.185-1.45 8.185-1.45-.274 1.848-2.049 3.201-4.909 3.491-2.164.22-4.93-.483-6.31-1.063v9.681c3.517 1.017 7.236 1.345 10.877.653 6.606-1.257 10.775-6.671 10.775-13.874v-24.51H26.891z"></path>
                     </g>
                 </g>
-            </svg>
+            </Svg>
         </div>
     )
 }

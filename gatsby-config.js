@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `css-lyft`,
-        short_name: `css-lyft`,
+        name: `gatsby-lyft`,
+        short_name: `gatsby-lyft`,
         description: `Lyft clone css with gatsby react`,
         start_url: `/`,
         background_color: `#663399`,
