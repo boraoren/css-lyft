@@ -6,6 +6,11 @@ const baseColors = {
 
 export default {
     fontSizes: [12, 14, 16, 24, 32, 48, 64, 96, 128],
+    fontFamily: {
+        menu: {
+            item: 'tahoma'
+        }
+    },
     colors: {
         darkblue: '#00316e',
         black: baseColors.black,

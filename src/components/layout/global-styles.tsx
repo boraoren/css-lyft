@@ -1,6 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+  * {
+      @import url('https://fonts.googleapis.com/cssfamily=Work+Sans:400,500&display=swa
+}
   body {
     margin: 0;
     padding: 0;

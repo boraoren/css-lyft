@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import { width, height } from 'styled-system'
 
 type svgProps = {
-    width: string
-    height: string
+    width: string[]
+    height: string[]
     viewBox?: string
 }
 

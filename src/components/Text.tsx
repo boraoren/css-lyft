@@ -10,9 +10,9 @@ type TextProps = {
     m: number,
 }
 
-const Text = styled('div')<TextProps>(
+const Text123 = styled('div')<TextProps>(
     fontSize,
     lineHeight,
 )
 
-export default Text
+export default Text123

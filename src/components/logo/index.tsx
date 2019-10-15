@@ -2,8 +2,8 @@ import * as React from 'react'
 import Svg from '../svg'
 
 type svgWidthAndHeightProps = {
-    width: string
-    height: string
+    width: string[]
+    height: string[]
     onClick(event?: React.MouseEvent<HTMLDivElement>): void;
 }
 
